@@ -1,0 +1,98 @@
+
+@media (max-width:1330px) {
+    .fixed-width {
+        width: 100%;
+        margin: auto;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    @media (max-width:840px){
+        .header-left {
+            width: 100%;
+            text-align: center;
+        }
+        .header-rigth {
+            width: 100%;
+        }
+        .header-rigth ul {
+            text-align: center;
+        }
+        .banner-section h2 {
+            font-size: 28px;
+        }
+        .banner-section h1 {
+            padding: 5px 0;
+            font-size: 30px;
+        }
+    }
+
+    @media (max-width:768px){
+        .header-rigth ul li {
+            border-right: none;
+            line-height: 50px;
+        }
+        .header-rigth ul li:first-child{
+            border-left: none;
+        }
+        .banner-section {
+            padding: 150px 0;
+        }
+        .service-item {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .footer-right {
+            width: 100%;
+        }
+        .footer-right ul {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .footer-left {
+            width: 100%;
+            text-align: center;
+        }
+
+    }
+
+    @media (max-width:576px){
+        .banner-section {
+            padding: 100px 0;
+        }
+        .banner-section h2 {
+            font-size: 24px;
+        }
+        .banner-section h1 {
+            padding: 5px 0;
+            font-size: 25px;
+        }
+        img {
+            max-width: 40%;
+        }
+
+        .about-image {
+            width: 100%;
+            text-align: center;
+            margin-left: 0;
+        }
+        .about-text {
+            width: 100%;
+            text-align: center;
+            margin-right: 0;
+        }
+        .about-text h2 {
+            font-size: 25px;
+            margin-top: 20px;
+        }
+        .about-text h3 {
+            font-size: 19px;
+            margin: 10px 0;
+        }
+        .about-text p {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
